@@ -1,3 +1,8 @@
+# customed
+/materials/images/*
+/materials/videos/*
+/ouputs/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

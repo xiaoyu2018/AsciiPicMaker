@@ -53,7 +53,7 @@ class VideoSProcessor:
 if __name__=='__main__':
     
     vs=VideoSProcessor()
-    # vs.split("./materials/videos/djr.mp4",interval=5)
-    vs.compose(MATERIAL_DIR+'images/video_split/djr/',"djr_coomposed")
+    vs.split("./materials/videos/dha.mp4",interval=3)
+    vs.compose(MATERIAL_DIR+'images/video_split/dha/',"dha_coomposed")
     
     pass

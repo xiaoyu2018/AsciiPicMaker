@@ -4,7 +4,7 @@ from converter import Converter
 from PIL import Image
 import shutil
 
-SPLTI_INTERVAL=1
+SPLTI_INTERVAL=2
 SAMPLE_RATE = 0.35
 RENDERING_FPS=18
 
@@ -54,8 +54,11 @@ def convert_images(imgs_dir, is_colorful=True, sample_rate=SAMPLE_RATE):
 def offline_show(images_dir):
     vp.compose(images_dir, "output",fps=RENDERING_FPS)
 
+
+
 if __name__=='__main__':
-    split_video("./materials/videos/dha.mp4")
-    convert_images("./materials/images/video_split/dha/")
+    # split_video("./materials/videos/dha.mp4")
+    # convert_images("./materials/images/video_split/dha/")
     offline_show("./outputs/images/")
+    # online_show("./materials/images/video_split/dha/")
     pass

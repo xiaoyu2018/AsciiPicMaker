@@ -33,7 +33,7 @@ class VideoSProcessor:
                 j+=1
 
             i+=1
-
+        print("video is splited")
     def compose(self, img_dir,video_name,fps=30):
         
         files = [img_dir+img for img in os.listdir(img_dir) if img.endswith(".jpg")]
